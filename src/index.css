@@ -1,13 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.form i{
+
+ width: 100px !important;
+ font-size: 30px;
+}
+.input-group-text {
+  height: 50px;
+  width: 80px;
+   background: transparent;
+  border: none;
+  padding: 0;
+  pointer-events: none
+}
+.city img{
+height: 70px;
+width: 80px;
+
+ 
+}
+.name{
+  border: 2px solid #abadae !important; 
+    border-radius: 20px;
+    padding: 10px; 
+    width: 60.666667%;
+   padding-left: 0px;
+  
+}
+.sell{
+  border-radius: 20px;
+}
+.crd{
+  margin-left: 80px;
+  margin-bottom: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+@media screen and (max-width: 768px) {
+  .form i {
+    width: 80px !important;
+    font-size: 20px;
+  }
+
+  .input-group-text {
+    height: 40px;
+    width: 60px;
+  }
+
+  .city img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .name {
+    border: 1px solid #dadcde !important;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+  }
+
+  .sell {
+    border-radius: 10px;
+  }
+}
+
+
+.leafs{
+  height: 300px;
+  width: auto;
+  margin-right: 10px;
+}
+.clip{
+  height: 450px;
+  width: 450px;
+
+  clip-path: polygon(25% 25%, 75% 25%, 75% 75%, 50% 93.75%, 25% 75%);
+  background-color: #ae7272
+}
+.cad{
+  padding: 150px;
+}
+.all{
+  width: 100%;
+ display: flex !important;
+ flex-direction: row !important;
+ justify-content: center !important;
+ align-items: center !important;
+}
+.textcenter{
+  text-align: center !important;
+}
+.down{
+  font-size: 50px !important;
+}
+.step{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.circ{
+  height: 60px !important;
+  width: 60px !important;
+  margin-bottom: 50px 
+  !important;
+  margin-left: 150px;
+  display: flex !important ;
+
+  align-items: center !important  ;
+  justify-content: center !important;
+
+}
+.per{
+  font-size: 9px;
+
+}
+.disc{
+  border-radius: 20px;
+}
+.sweet img{
+ height: 600px !important;
+
 }
