@@ -9,10 +9,10 @@ function Download() {
       <p className='fs-2 text-white'>
       Sell your old phone | Buy top-qulaity refurbished phones |<br/> Get your phone repaired
       </p>
-      <button type='button' className='btn btn-dark mt-5 col-md-2 m-5 fs-5 fw-bolder' disabled>
+      <button type='button' className='btn btn-dark mt-5 col-md-2 m-5 fs-5 fw-bolder' >
         GET IT ON <br/> Google Play<i className='bi bi-arrow-right-circle-fill'></i>
       </button>
-      <button type='button' className='btn btn-dark col-md-3 fs-5 fw-bolder' disabled>
+      <button type='button' className='btn btn-dark col-md-3 fs-5 fw-bolder' >
       Download on the <br/> App Store
     </button>
     </div>

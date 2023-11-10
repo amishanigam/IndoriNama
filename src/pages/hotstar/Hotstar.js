@@ -1,8 +1,14 @@
 import React from 'react'
 import hotstar from '../../assest/image 47.png'
 import img from '../../assest/Rectangle 40191.png'
+import { useNavigate } from 'react-router-dom'
 
 function Hotstar() {
+ 
+  const navigate = useNavigate()
+
+
+
   return (
     <>
     <nav class="navbar">
@@ -75,7 +81,7 @@ Reach/Impression : 150 Million</button>
   <div class="card-body">
   <h5 class="card-title fw-bolder fs-3 mt-4">Spotlight Frames</h5>
   <p class="card-text fs-5 mt-5"><i class="bi bi-check-circle-fill"></i> Video & Display Ads<br/><i class="bi bi-check-circle-fill"></i> Roadblocks & Content Integrations <br/> <i class="bi bi-check-circle-fill"></i> Performance Campaigns</p>
-  <a href="#" class="btn btn-dark text-white col-md-12 fs-4 mt-4">Login to View Price</a>
+  <button class="btn btn-dark text-white col-md-12 fs-4 mt-4" onClick={()=>{navigate("/gifts")}} >Login to View Price</button>
   </div>
 </div>
 <div class="card col-md-3 me-4">

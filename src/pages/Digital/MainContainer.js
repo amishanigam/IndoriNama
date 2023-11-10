@@ -221,7 +221,7 @@ Sort By: Popularity
 
 </div>
 <div className='d-flex justify-content-center align-items-center mt-5'>
-<button type='button' className='btn btn-dark col-md-2 text-center rounded fs-3 fw-bolder' disabled>
+<button type='button' className='btn btn-dark col-md-2 text-center rounded fs-3 fw-bolder' >
   view more<br/> <i className='bi bi-arrow-right-circle-fill'></i>
 </button>
 
@@ -299,7 +299,7 @@ Sort By: Popularity
  <div className='container-md ms-md-5 p-md-5'>
    <h1 className='text-white'>Reach out to our Media Expert for more details about <br/> Digital Advertising</h1>
   
-   <button type='button' className='btn btn-light col-md-4 fs-5 fw-bolder mt-5' disabled>
+   <button type='button' className='btn btn-dark col-md-4 fs-5 fw-bolder mt-5' >
      Contact us<i className='bi bi-arrow-right-circle-fill'></i>
    </button>
  </div>

@@ -17,7 +17,7 @@ function Venture() {
        <img src={img}></img>
        <h1 className='textcenter mt-5 fs-1'>Our Venture</h1>
 
-       <div  className='container border col-md-6  d-flex align-center' style={{marginleft: '330px'}}>
+       <div  className='container border col-md-6  d-flex align-item-center justify-content-center'>
        <div className='col-md-1  p-5'>
        <img src={image}className='image-fluid'></img>
        

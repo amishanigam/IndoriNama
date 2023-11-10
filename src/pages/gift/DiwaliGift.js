@@ -2,8 +2,13 @@ import React from 'react'
 import img from '../../assest/Rectangle 40191.png'
 import gift from '../../assest/image 134.png'
 import step from '../../assest/image 82.png'
+import { useNavigate } from 'react-router-dom'
 
 function DiwaliGift() {
+  const navigate = useNavigate()
+
+
+  
   return (
    <>
    <nav class="navbar">
@@ -186,7 +191,7 @@ function DiwaliGift() {
 </div>
 </div>
 <div className='d-flex justify-content-center align-items-center mt-5'>
-<button type='button' className='btn btn-dark col-md-2 text-center rounded fs-5 fw-bolder' disabled>
+<button type='button' className='btn btn-dark col-md-2 text-center rounded fs-5 fw-bolder' onClick={()=>{navigate("/more")}}>
   view more<br/><i className='bi bi-arrow-right-circle-fill'></i>
 </button>
 

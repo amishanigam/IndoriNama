@@ -7,7 +7,8 @@ import { useNavigate } from 'react-router-dom'
 
 
 function Product() {
-  const navigate = useNavigate()
+
+    const navigate = useNavigate()
 
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -161,15 +162,15 @@ Get A Quotation
   className="modal-content d-flex justify-content-center align-items-center col-md-8 border-0"
 >
   <div className="modal-header  text-center col-md-4">
-    <h2 className=' col-md-10 mt-3'>Get A Quotation</h2>
-    
-    <p className=' col-md-10 mt-3'>Please Enter Your Whatsapp Number</p>
+  <i class="bi bi-check-circle-fill fw-bolder text-success fs-1"></i>
 
-    <div class="col-auto mt-3">
-    <label for="inputPassword2" class="visually-hidden">123456789 </label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="123456777 " />
-  </div>
-  <button type="button" class="btn btn-lg btn-dark text-white col-md-8 mt-5"onClick={()=>{navigate("/quot")}} >Send</button>
+    <h2 className=' col-md-10 mt-5'>Quotation successfully
+    Sent </h2>
+    
+    <p className=' col-md-10 mt-3'>Thank you for using over services.</p>
+
+  
+  <button type="button" class="btn btn-lg btn-dark text-white col-md-8 mt-5" >Finish</button>
     
     <button className="btn-close" onClick={closeModal}></button>
     <div className="modal-body">

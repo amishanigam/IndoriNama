@@ -50,7 +50,7 @@ function Advertising() {
 
 
         <div className='d-flex justify-content-center align-items-center'>
-        <button type='button' className='btn btn-dark col-md-2 text-center fs-5 fw-bolder' disabled>
+        <button type='button' className='btn btn-dark col-md-2 text-center fs-5 fw-bolder' >
           About Us <br/> <i className='bi bi-arrow-right-circle-fill'></i>
         </button>
         
